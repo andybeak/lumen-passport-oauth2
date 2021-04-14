@@ -1017,16 +1017,16 @@
         },
         {
             "name": "illuminate/cookie",
-            "version": "v6.3.0",
+            "version": "v6.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cookie.git",
-                "reference": "0db1144f6834d6f497f1cdad6d6192e9e4f0c43f"
+                "reference": "011bd16faeb54813aa9aecd5e95ae2b058ff2052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cookie/zipball/0db1144f6834d6f497f1cdad6d6192e9e4f0c43f",
-                "reference": "0db1144f6834d6f497f1cdad6d6192e9e4f0c43f",
+                "url": "https://api.github.com/repos/illuminate/cookie/zipball/011bd16faeb54813aa9aecd5e95ae2b058ff2052",
+                "reference": "011bd16faeb54813aa9aecd5e95ae2b058ff2052",
                 "shasum": ""
             },
             "require": {
@@ -1039,7 +1039,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
+                    "dev-master": "6.x-dev"
                 }
             },
             "autoload": {
@@ -1059,7 +1059,11 @@
             ],
             "description": "The Illuminate Cookie package.",
             "homepage": "https://laravel.com",
-            "time": "2019-09-10T15:16:05+00:00"
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-19T13:45:46+00:00"
         },
         {
             "name": "illuminate/database",
